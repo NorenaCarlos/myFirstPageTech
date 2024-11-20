@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My first web site</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to my web site</h1>
+  </header>
+  <main>
+    <section id="introduction">
+      <p>This page is used to introduce myself and show you what I have done in my career.</p>
+      <p>My name is Carlos Norena and I'm a mechatronics engineer. I'm from Colombia.</p>
+      <img id="profile-photo" src="myPhoto.jpeg" alt="Photo of Carlos Norena">
+      <a id="linkedin-link" href="https://www.linkedin.com/in/carlos-andrés-noreña-vargas-7a35a42ab/" target="_blank">LinkedIn</a>
+    </section>
+    <section id="hobbies">
+      <h2>Hobbies</h2>
+      <ul class="list">
+        <li>Chess</li>
+        <li>Reading</li>
+        <li>Programming</li>
+      </ul>
+    </section>
+    <section id="tasks">
+      <h2>Tasks to be done</h2>
+      <ol class="list">
+        <li>To make projects</li>
+        <li>To make exams</li>
+        <li>To make homeworks</li>
+      </ol>
+      <table id="schedule">
+        <thead>
+          <tr>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+            <th>Saturday</th>
+            <th>Sunday</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <ol class="task-list">
+                <li>To make projects</li>
+                <li>To make exams</li>
+                <li>To make homeworks</li>
+              </ol>
+            </td>
+            <td>
+              <ol class="task-list">
+                <li>To make projects</li>
+                <li>To make exams</li>
+                <li>To make homeworks</li>
+              </ol>
+            </td>
+            <td>
+              <ol class="task-list">
+                <li>To make projects</li>
+                <li>To make exams</li>
+                <li>To make homeworks</li>
+              </ol>
+            </td>
+            <td>
+              <ol class="task-list">
+                <li>To make projects</li>
+                <li>To make exams</li>
+                <li>To make homeworks</li>
+              </ol>
+            </td>
+            <td>
+              <ol class="task-list">
+                <li>To make projects</li>
+                <li>To make exams</li>
+                <li>To make homeworks</li>
+              </ol>
+            </td>
+            <td>
+              <ol class="task-list">
+                <li>To make projects</li>
+                <li>To make exams</li>
+                <li>To make homeworks</li>
+              </ol>
+            </td>
+            <td>
+              <ol class="task-list">
+                <li>To make projects</li>
+                <li>To make exams</li>
+                <li>To make homeworks</li>
+              </ol>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    
+  </main>
+  <footer>
+    <section id="contact">
+      <h2>Contacto</h2>
+      <form id="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        <br>
+        <label for="reason">Reason:</label>
+        <textarea id="reason" name="reason" placeholder="Why you wish contact me" required></textarea>
+        <br>
+        <label for="email">email:</label>
+        <input type="email" id="email" name="email" placeholder="example@correo.com" required>
+        <br>
+        <button type="submit">Send</button>
+      </form>
+    </section>    
+    <p>&copy; 2024 Carlos Norena</p>
+  </footer>
+  <script src="index.js"></script>
+</body>
+</html>
